@@ -20,7 +20,7 @@ In this tutorial, within Azure Virtual Network, for a client to join a domain, I
 
 <h2>High-Level Steps</h2>
 
-- Step 1: Creat a Virtual Network then 2 Virtual Machines (server and client) ensure they are in the Virtual Network we 1st created
+- Step 1: Creat a Virtual Network - Create 2 Virtual Machines (server and client) ensure they are in the Virtual Network we 1st created
 - Step 2: Set (DC-1) Domain Controller’s NIC Private IP address to be static
 - Step 3: Set Client-1’s DNS settings to DC-1’s Private IP address
 - Step 4: Ping DC-1’s private IP address to ensure the connectivity
@@ -47,7 +47,7 @@ Click on Virtual Network, click on Creat, select subscription, name it “Active
 
 </p>
 <p>
-After creating both Virtual Machines (Server and client) in your Azure portal, go to: Virtual Machines - Select the Server (DC-1) - Click on Networking, Network Settings - Click on Network Interface / IP configuration - Click on ipconfig1 - under Private IP address settings, change your allocation from Dynamic to Static and assing the correct IP address (10.0.0.4) then click SAVE. The Reason for setting up a static IP addresses is for stability, reliability, and easier remote access to specific devices or services like web/email servers, NAS drives, printers, or VPNs, ensuring they are always reachable at the same address for consistent connections, DNS resolution, and controlled network access. Unlike dynamic IPs that change, a static IP provides a permanent digital address, crucial for hosting services, reliable data transfers, IP allowlisting, and simplifying network management. 
+After creating both Virtual Machines (Server and client) in your Azure portal, go to: Virtual Machines - Select the Server (DC-1) - Click on Networking, Network Settings - Click on Network Interface / IP configuration - Click on ipconfig1 - under Private IP address settings, change your allocation from Dynamic to Static and assign the correct IP address (10.0.0.4) then click SAVE. The Reason for setting up a Static IP addresses is for stability, reliability, and easier remote access to specific devices or services like web/email servers, NAS drives, printers, or VPNs, ensuring they are always reachable at the same address for consistent connections, DNS resolution, and controlled network access. Unlike dynamic IPs that change, a static IP provides a permanent digital address, crucial for hosting services, reliable data transfers, IP allowlisting, and simplifying network management.
 </p>
 <br />
 
