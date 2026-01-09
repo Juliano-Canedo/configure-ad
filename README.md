@@ -57,6 +57,6 @@ After creating both Virtual Machines (Server and client) in your Azure portal, g
 
 </p>
 <p>
-Got to Virtual Machines and select client-1 - click on Networking - click Network Settings - click Network interface / IP configuration - click DNS Servers - click Custom and change it to your DC-1 Private IP in this case (10.0.0.4). then SAVE.
+Got to Virtual Machines and select client-1 - click on Networking - click Network Settings - click Network interface / IP configuration - click DNS Servers - click Custom and change it to your DC-1 Private IP in this case (10.0.0.4). then SAVE. (From observing the previous sline we can see the Private IP for DC-1)
 </p>
 <br /># configure-ad
