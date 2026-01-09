@@ -20,10 +20,12 @@ In this tutorial, within Azure Virtual Network, for a client to join a domain, I
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Step 1: Set (DC-1) Domain Controller’s NIC Private IP address to be static
+- Step 2: Set Client-1’s DNS settings to DC-1’s Private IP address
+- Step 3: Ping DC-1’s private IP address to ensure the connectivity
+- Step 4: Open PowerShell and run ipconfig /all -
+The output for the DNS settings should show DC-1’s private IP Address
+
 
 <h2>Actions and Observations</h2>
 
