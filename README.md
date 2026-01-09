@@ -53,9 +53,10 @@ After creating both Virtual Machines (Server and client) in your Azure portal, g
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1496" height="967" alt="client DNS" src="https://github.com/user-attachments/assets/d09a9eac-86d3-4f8a-b6f6-83c523759c31" />
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Got to Virtual Machines and select client-1 - click on Networking - click Network Settings - click Network interface / IP configuration - click DNS Servers - click Custom and change it to your DC-1 Private IP in this case (10.0.0.4). then SAVE.
 </p>
 <br /># configure-ad
