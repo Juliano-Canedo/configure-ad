@@ -34,7 +34,7 @@ The output for the DNS settings should show DC-1’s private IP Address
 
 </p>
 <p>
-After creating both Virtual Machines (Server and client) in your Azure portal, go to: Virtual Machines - Select the Server (DC-1) - Click on Networking, Network Settings - Click on Network Interface / IP configuration - Click on ipconfig1 and under Private IP address settings change your allocation from Dynamic to Static and assing the correct IP address (10.0.0.4) then click SAVE.
+After creating both Virtual Machines (Server and client) in your Azure portal, go to: Virtual Machines - Select the Server (DC-1) - Click on Networking, Network Settings - Click on Network Interface / IP configuration - Click on ipconfig1 - under Private IP address settings, change your allocation from Dynamic to Static and assing the correct IP address (10.0.0.4) then click SAVE. The Reason for setting up a static IP addresses is for stability, reliability, and easier remote access to specific devices or services like web/email servers, NAS drives, printers, or VPNs, ensuring they are always reachable at the same address for consistent connections, DNS resolution, and controlled network access. Unlike dynamic IPs that change, a static IP provides a permanent digital address, crucial for hosting services, reliable data transfers, IP allowlisting, and simplifying network management. 
 </p>
 <br />
 
