@@ -57,6 +57,14 @@ After creating both Virtual Machines (Server and client) in your Azure portal, g
 
 </p>
 <p>
-Got to Virtual Machines and select client-1 - click on Networking - click Network Settings - click Network interface / IP configuration - click DNS Servers - click Custom and change it to your DC-1 Private IP in this case (10.0.0.4). then SAVE. (From observing the previous sline we can see the Private IP for DC-1)
+Go to Virtual Machines and select client-1 - click on Networking - click Network Settings - click Network interface / IP configuration - click DNS Servers - click Custom and change it to your DC-1 Private IP in this case (10.0.0.4). Click SAVE. (From observing the previous slide we can see the Private IP for DC-1)
+</p>
+
+<p>
+<img width="1109" height="280" alt="Screenshot 2026-01-08 at 7 31 12 PM" src="https://github.com/user-attachments/assets/0db3184b-4bc9-43e3-b5f9-a39e95ac1e65" />
+
+</p>
+<p>
+Copy the  Public Ip Address for the client VM and log into your Remote Desktop with you user name and password. Run Power Shell and use the command: ping 10.0.0.4 
 </p>
 <br /># configure-ad
