@@ -67,4 +67,20 @@ Go to Virtual Machines and select client-1 - click on Networking - click Network
 <p>
 Copy the  Public Ip Address for the client VM and log into your Remote Desktop with you user name and password. Run Power Shell and use the command: ping 10.0.0.4 
 </p>
+
+<p>
+<img width="1113" height="675" alt="Screenshot 2026-01-08 at 7 31 48 PM" src="https://github.com/user-attachments/assets/db0397d6-9c6d-4687-b671-43725f4385da" />
+
+</p>
+<p>
+Observe the reply - CONNECTED :)
+</p>
+
+<p>
+<img width="1151" height="742" alt="Screenshot 2026-01-08 at 7 32 49 PM" src="https://github.com/user-attachments/assets/83a6bf1e-b1dd-4558-af47-32d15895115e" />
+
+</p>
+<p>
+Observe the DNS server is the correct :)
+</p>
 <br /># configure-ad
