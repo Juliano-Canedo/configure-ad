@@ -73,7 +73,7 @@ Copy the  Public Ip Address for the client VM and log into your Remote Desktop w
 
 </p>
 <p>
-Observe the reply - CONNECTED :)
+Observe the reply - CONNECTED to DC-1:)
 </p>
 
 <p>
@@ -81,6 +81,6 @@ Observe the reply - CONNECTED :)
 
 </p>
 <p>
-Observe the DNS server is the correct :)
+Observe the DC-1 DNS server is the correct :)
 </p>
 <br /># configure-ad
