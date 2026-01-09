@@ -3,26 +3,20 @@
 
 </p>
 
-<h1>  DNS Setup  |  Network Configuration  |  Using Azure VMs</h1>
-In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
+<h1>  DNS CONFIGURATION</h1>
+In this tutorial, within Azure Virtual Network, for a client to join a domain, I will configure the client's DNS IP Address to the same IP address as the Domain Controler. <br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: Azure Virtual Machines, Wireshark, and Network Security Groups](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Various Command-Line Tools
-- Various Network Protocols (SSH, RDH, DNS, HTTP/S, ICMP)
-- Wireshark (Protocol Analyzer)
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10 (21H2)
-- Ubuntu Server 20.04
+- Windows 11 Pro, Version 25H2 - x64 Gen2
+- Windows Server 2025 Datacenter: Azure Edition - x64 Gen2
 
 <h2>High-Level Steps</h2>
 
