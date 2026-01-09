@@ -20,14 +20,27 @@ In this tutorial, within Azure Virtual Network, for a client to join a domain, I
 
 <h2>High-Level Steps</h2>
 
-- Step 1: Set (DC-1) Domain Controller’s NIC Private IP address to be static
-- Step 2: Set Client-1’s DNS settings to DC-1’s Private IP address
-- Step 3: Ping DC-1’s private IP address to ensure the connectivity
-- Step 4: Open PowerShell and run ipconfig /all -
+- Step 1: Creat a Virtual Network then 2 Virtual Machines (server and client) ensure they are in the Virtual Network we 1st created
+- Step 2: Set (DC-1) Domain Controller’s NIC Private IP address to be static
+- Step 3: Set Client-1’s DNS settings to DC-1’s Private IP address
+- Step 4: Ping DC-1’s private IP address to ensure the connectivity
+- Step 5: Open PowerShell and run ipconfig /all -
 The output for the DNS settings should show DC-1’s private IP Address
 
 
 <h2>Actions and Observations</h2>
+
+<p>
+<img width="1024" height="768" alt="1st slide" src="https://github.com/user-attachments/assets/a97ad6d5-b935-4892-a61a-c9d9e28f960a" />
+
+</p>
+<p>
+Click on Virtual Network, click on Creat, select subscription, name it “Active-Directory-Vnet” click Review and Create. Following the same steps click on Virtual Machines and create a server and a client (observe “operating systems used” for specifics). Under Networking ensure to choose “Active-Directory-Vnet” for both Virtual Machines.
+
+
+</p>
+<br />
+
 
 <p>
 <img width="2992" height="1934" alt="image" src="https://github.com/user-attachments/assets/7990e396-1dba-4020-8dc8-d99e9406654a" />
@@ -38,13 +51,6 @@ After creating both Virtual Machines (Server and client) in your Azure portal, g
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
