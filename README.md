@@ -4,7 +4,7 @@
 </p>
 
 <h1>  DNS CONFIGURATION</h1>
-In this tutorial, within Azure Virtual Network, for a client to join a domain, I will configure the client's DNS IP Address to the same IP address as the Domain Controler. <br />
+In this tutorial, you will learn how to configure a client’s DNS IP address within an Azure Virtual Network to point to the domain controller, enabling the client to join the domain. <br />
 
 
 <h2>Environments and Technologies Used</h2>
