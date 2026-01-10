@@ -23,8 +23,8 @@ In this tutorial, you will learn how to configure a client’s DNS IP address wi
 - Step 1: Creat a Virtual Network - Create 2 Virtual Machines (server and client) ensure they are in the Virtual Network we 1st created
 - Step 2: Set (DC-1) Domain Controller’s NIC Private IP address to be static
 - Step 3: Set Client-1’s DNS settings to DC-1’s Private IP address
-- Step 4: Ping DC-1’s private IP address to ensure the connectivity
-- Step 5: Open PowerShell and run ipconfig /all -
+- Step 4: Ping DC-1’s private IP address to ensure connectivity
+- Step 5: Open PowerShell on the client's VM and run ipconfig /all -
 The output for the DNS settings should show DC-1’s private IP Address
 
 
